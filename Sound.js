@@ -25,17 +25,17 @@ class Sound {
          console.log(this.yval);
          if (this.yval < 220) {
             state = 1;
-         } else if (this.yval < 290) {
+         } else if (this.yval < 320) {
             state = 2;
-         } else if (this.yval < 360) {
+         } else if (this.yval < 420) {
             state = 3;
-         } else if (this.yval < 434) {
+         } else if (this.yval < 524) {
             state = 4;
-         } else if (this.yval < 500) {
+         } else if (this.yval < 620) {
             state = 5;
-         } else if (this.yval < 576) {
+         } else if (this.yval < 720) {
             state = 6;
-         } else if (this.yval < 640) {
+         } else if (this.yval < 820) {
             state = 7;
          }
          this.time = window.prompt("Set Timer(minutes);[For example, 3.5 = 3min30sec]");
