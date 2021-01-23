@@ -8,7 +8,7 @@ class Sound {
       this.height = h;
       this.img = img;
       s.addImage("label", img);
-      s.scale = 075
+      s.scale = 0.75
    }
    //state 0-main menu  
    //when clicked program |
