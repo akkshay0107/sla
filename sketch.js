@@ -49,7 +49,7 @@ function setup() {
    //choose sound
    var cs = createSprite(windowWidth/2, 100, 300, 80);
    cs.addImage("choose_sound", csImg);
-   cs.scale = 1.2;
+   cs.scale = 0.75;
    //all sounds
    var s1 = new Sound(windowWidth/2, 205, 102, 29, waveT);
    var s2 = new Sound(windowWidth/2, 305, 71, 29, rainT);
