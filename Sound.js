@@ -8,7 +8,7 @@ class Sound {
       this.height = h;
       this.img = img;
       s.addImage("label", img);
-      s.scale = 0.75
+      s.scale = 1.2
    }
    //state 0-main menu  
    //when clicked program |
@@ -54,7 +54,7 @@ class Sound {
                mouseIsPressed = false;
                var cover = createSprite(windowWidth / 2, windowHeight / 2, windowWidth, windowHeight);
                cover.addImage("waves", waveImg);
-               cover.scale = 0.4;
+               cover.scale = 0.6;
                cover.shapeColor = color(0);
                whitew.loop();
                //interactive buttons
@@ -111,7 +111,7 @@ class Sound {
             if (state === 2) {
                var cover = createSprite(windowWidth / 2, windowHeight / 2, windowWidth, windowHeight);
                cover.addImage("rain", rainImg);
-               cover.scale = 2.25;
+               cover.scale = 3.3;
                cover.shapeColor = color(0);
                whiter.loop();
                //interactive buttons
@@ -167,7 +167,7 @@ class Sound {
             if (state === 3) {
                var cover = createSprite(windowWidth / 2, windowHeight / 2, windowWidth, windowHeight);
                cover.addImage("forest", forestImg);
-               cover.scale = 0.76;
+               cover.scale = 1.2;
                cover.shapeColor = color(0);
                forestS.loop();
                //interactive buttons
@@ -222,7 +222,7 @@ class Sound {
             if (state === 4) {
                var cover = createSprite(windowWidth / 2, windowHeight / 2, windowWidth, windowHeight);
                cover.addImage("mountain", mwImg);
-               cover.scale = 0.8;
+               cover.scale = 1.2;
                cover.shapeColor = color(0);
                mwS.loop();
                //interactive buttons
@@ -277,6 +277,7 @@ class Sound {
             if (state === 5) {
                var cover = createSprite(windowWidth / 2, windowHeight / 2, windowWidth, windowHeight);
                cover.addImage("zen", zenImg);
+               cover.scale = 1.35;
                cover.shapeColor = color(0);
                zenS.loop();
                //interactive buttons
@@ -331,7 +332,7 @@ class Sound {
             if (state === 6) {
                var cover = createSprite(windowWidth / 2, windowHeight / 2, windowWidth, windowHeight);
                cover.addImage("campfire", cfImg);
-               cover.scale = 0.7899;
+               cover.scale = 1.2;
                cover.shapeColor = color(0);
                campfireS.loop();
                //interactive buttons
@@ -386,7 +387,7 @@ class Sound {
             if (state === 7) {
                var cover = createSprite(windowWidth / 2, windowHeight / 2, windowWidth, windowHeight);
                cover.addImage("whale", uwImg);
-               cover.scale = 2.1;
+               cover.scale = 2.81;
                cover.shapeColor = color(0);
                uwhale.loop();
                //interactive buttons
