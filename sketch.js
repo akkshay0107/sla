@@ -52,9 +52,9 @@ function setup() {
    cs.scale = 0.75;
    //all sounds
    var s1 = new Sound(windowWidth/2, 205, 102, 29, waveT);
-   var s2 = new Sound(windowWidth/2, 305, 71, 29, rainT);
-   var s3 = new Sound(windowWidth/2, 405, 105, 29, forestT);
-   var s4 = new Sound(windowWidth/2, 505, 140, 34, mwT);
+   var s2 = new Sound(windowWidth/2, 300, 71, 29, rainT);
+   var s3 = new Sound(windowWidth/2, 395, 105, 29, forestT);
+   var s4 = new Sound(windowWidth/2, 490, 140, 34, mwT);
    var s5 = new Sound(windowWidth/2, 605, 65, 29, zenT);
    var s6 = new Sound(windowWidth/2, 705, 151, 34, cfT);
    var s7 = new Sound(windowWidth/2, 805, 195, 29, uwT);
