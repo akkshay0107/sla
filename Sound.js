@@ -25,11 +25,11 @@ class Sound {
          console.log(this.yval);
          if (this.yval < 220) {
             state = 1;
-         } else if (this.yval < 320) {
+         } else if (this.yval < 315) {
             state = 2;
-         } else if (this.yval < 420) {
+         } else if (this.yval < 410) {
             state = 3;
-         } else if (this.yval < 524) {
+         } else if (this.yval < 509) {
             state = 4;
          } else if (this.yval < 620) {
             state = 5;
