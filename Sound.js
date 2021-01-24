@@ -31,7 +31,7 @@ class Sound {
             state = 3;
          } else if (this.yval < 509) {
             state = 4;
-         } else if (this.yval < 620) {
+         } else if (this.yval < 605) {
             state = 5;
          } else if (this.yval < 720) {
             state = 6;
